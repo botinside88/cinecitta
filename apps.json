@@ -1,0 +1,33 @@
+{
+  "$schema": "https://github.com/SideStore/sidestore-source-types/raw/main/schema.json",
+  "name": "Cinecitta",
+  "identifier": "io.github.kinopubus.cinecitta",
+  "subtitle": "Каламбия пикчерс не представляет",
+  "website": "https://github.com/kinopubus/cinecitta",
+  "tintColor": "#1e2327",
+  "apps": [
+    {
+      "name": "Cinepub",
+      "bundleIdentifier": "com.petrovich.cinepub",
+      "developerName": "kinopubus",
+      "subtitle": "Что-то там про слонов",
+      "localizedDescription": "Развлекательное приложение для iOS.",
+      "iconURL": "https://raw.githubusercontent.com/kinopubus/cinecitta/main/icon.png",
+      "tintColor": "#1e2327",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "2.39",
+          "date": "2026-05-16",
+          "localizedDescription": "## What's New\n- IntroDB integration — automatic skip prompts for intros, outros, and recaps with a new in-player skip-segment overlay\n- Dialogue Enhancement audio effect — clearer speech via center-channel boost and stereo speech-band EQ\n- Custom per-folder bookmark sorting, with shareable sort orders via URL scheme\n- Redesigned Liquid Glass tab bar (iPad keeps the previous layout)\n- New polished sidebar\n- EndpointManager — automatic failover between API and CDN endpoints when one is unavailable\n- Service Unavailability sheet — clear in-app feedback when the backend is down\n- Reorganized Settings, including a dedicated Downloads settings screen\n- New audio session configuration for long-form video playback\n## Bug Fixes\n- Downloads tab badge no longer double-counts HLS downloads\n- Marking a season as watched / unwatched now works correctly\n- Fixed audio-track selection and the inability to re-watch already-watched offline content (episodes and movies)\n- Fixed a navigation bug preventing category opens\n- Fixed search badges being too long\n- Fixed scrubber behavior in the player\n- Corrected server selection path during token refresh\n## Other Changes\n- Concurrent download cap is now enforced immediately when lowered in settings\n- Better placeholder images for posters\n- Hero slideshow — smoother animation and simpler swipe action\n---",
+          "downloadURL": "https://github.com/kinopubus/cinecitta/releases/download/2.39/cp_2.39-16052026.ipa",
+          "size": 19085178,
+          "sha256": "dec4ea39fc749e8994ea98826cbe32a8cb19347440f40fa8ba49d783d460288d",
+          "minOSVersion": "17.6"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
