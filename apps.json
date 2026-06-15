@@ -18,6 +18,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "2.41",
+          "date": "2026-06-15",
+          "localizedDescription": "Новая версия 2.41. Что нового читайте в канале поддержки",
+          "downloadURL": "https://github.com/kinopubus/cinecitta/releases/download/v2.41/cp_2.41-15062026.ipa",
+          "size": 19278287,
+          "sha256": "c73a6d16229ff4cf15166ddf2be75d3766a4a7f7311d6f6154a60691807b05db",
+          "minOSVersion": "17.6"
+        },
+        {
           "version": "2.40",
           "date": "2026-05-20",
           "localizedDescription": "Новая версия 2.40. Что нового читайте в канале поддержки",
